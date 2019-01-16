@@ -1,10 +1,15 @@
 package denniskejser.ranking.eventmanager.events;
 
-public class NewMatchScore implements Event{
+public class NewMatchEvent implements Event{
 	public String player1;
 	private String player2;
 	private String result;
+	private String league;
 	
+	public String getLeague() {
+		return league;
+	}
+
 	public String getPlayer1() {
 		return player1;
 	}
@@ -29,8 +34,9 @@ public class NewMatchScore implements Event{
 		this.result = result;
 	}
 
-	public NewMatchScore(String player1, String player2, String result) {
+	public NewMatchEvent(String league, String player1, String player2, String result) {
 		super();
+		this.league = league;
 		this.player1 = player1;
 		this.player2 = player2;
 		this.result = result;
