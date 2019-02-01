@@ -1,7 +1,7 @@
 package denniskejser.ranking.eventmanager.handler;
 
-import denniskejser.ranking.eventmanager.EventManager;
 import denniskejser.ranking.eventmanager.events.NewLeagueEvent;
+import denniskejser.ranking.managers.event.EventManager;
 import denniskejser.ranking.state.InMemoryState;
 
 public class NewLeagueEventHandler implements EventHandler<NewLeagueEvent>{

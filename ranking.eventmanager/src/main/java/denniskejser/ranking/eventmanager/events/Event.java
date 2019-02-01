@@ -1,5 +1,6 @@
 package denniskejser.ranking.eventmanager.events;
 
-public interface Event {
-
+public abstract class Event {
+	
+	
 }

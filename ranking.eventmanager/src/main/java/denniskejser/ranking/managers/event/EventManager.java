@@ -1,5 +1,6 @@
-package denniskejser.ranking.eventmanager;
+package denniskejser.ranking.managers.event;
 
+import denniskejser.ranking.eventmanager.HandlerRegistry;
 import denniskejser.ranking.eventmanager.events.Event;
 import denniskejser.ranking.eventmanager.handler.EventHandler;
 

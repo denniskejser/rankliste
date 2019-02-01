@@ -1,5 +1,8 @@
 package denniskejser.ranking.state;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Player {
 	private String league;
 	private String name;
@@ -9,6 +12,9 @@ public class Player {
 	private int lossCount;
 	private int trend;
 
+	private List<Match> matches = new ArrayList<>();
+	
+	
 	public int getWinCount() {
 		return winCount;
 	}
@@ -76,6 +82,19 @@ public class Player {
 	public String toJsonAttribute(String name, String value) {
 		return "\"" + name + "\": \"" + value +"\""; 
 	}
-	
+
+	public void addMatch(Match m ) {
+		matches.add(m);
+	}
+
+	public String getLastResult() {
+		if (matches.isEmpty())
+			return "";
+		Match lastMast = matches.get(matches.size() - 1);
+		if (lastMast.getWinner().equals(this)) {
+			return lastMast.getAward() + "";
+		}
+		return lastMast.getPenalty() + "";
+	}
 	
 }

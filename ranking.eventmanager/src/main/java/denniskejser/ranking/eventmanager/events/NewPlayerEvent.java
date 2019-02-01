@@ -1,10 +1,10 @@
 package denniskejser.ranking.eventmanager.events;
 
-public class NewPlayerEvent implements Event {
+public class NewPlayerEvent extends Event {
 	private String name;
 	private int rating;
 	private String league;
-	
+
 	public String getLeague() {
 		return league;
 	}
@@ -12,7 +12,7 @@ public class NewPlayerEvent implements Event {
 		super();
 		this.league=league;
 		this.name = name;
-		rating = 1200;
+		rating = 1000;
 	}
 	public NewPlayerEvent(String league,String name, int rating) {
 		super();
@@ -24,7 +24,7 @@ public class NewPlayerEvent implements Event {
 		return rating;
 	}
 	public String getName() {
-		return name;
+		return name.trim();
 	}
 
 	public void setName(String name) {

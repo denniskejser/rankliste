@@ -1,6 +1,8 @@
 package denniskejser.ranking.state;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class InMemoryState {
 	public static InMemoryState INSTANCE = new InMemoryState();
@@ -16,5 +18,10 @@ public class InMemoryState {
 	}
 	public League getLeagueState(String name){
 		return stateMap.get(name);
+	}
+	
+	public List<League> getLeagues(){
+		ArrayList<League> res =  new ArrayList<>(stateMap.values());
+		return res;
 	}
 }
