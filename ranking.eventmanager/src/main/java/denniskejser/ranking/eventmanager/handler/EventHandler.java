@@ -1,7 +1,7 @@
 package denniskejser.ranking.eventmanager.handler;
 
+import denniskejser.ranking.eventmanager.EventManager;
 import denniskejser.ranking.eventmanager.events.Event;
-import denniskejser.ranking.managers.event.EventManager;
 
 public interface EventHandler<T extends Event> {
 

@@ -9,7 +9,6 @@ import org.junit.Test;
 import denniskejser.ranking.eventmanager.events.NewLeagueEvent;
 import denniskejser.ranking.eventmanager.events.NewMatchEvent;
 import denniskejser.ranking.eventmanager.events.NewPlayerEvent;
-import denniskejser.ranking.managers.event.EventManager;
 import denniskejser.ranking.state.InMemoryState;
 import denniskejser.ranking.state.League;
 import denniskejser.ranking.state.Player;

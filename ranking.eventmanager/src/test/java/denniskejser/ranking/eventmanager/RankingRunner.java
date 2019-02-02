@@ -5,7 +5,6 @@ import java.nio.file.Paths;
 import java.util.List;
 
 import denniskejser.ranking.eventmanager.events.Event;
-import denniskejser.ranking.managers.event.EventManager;
 import denniskejser.ranking.parser.TournementFileParser;
 import denniskejser.ranking.render.output.WebSiteProducer;
 
