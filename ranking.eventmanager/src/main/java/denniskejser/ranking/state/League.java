@@ -51,7 +51,7 @@ public class League {
 			public int compare(Player o1, Player o2) {
 				int c = Integer.valueOf(o2.getRating()).compareTo(Integer.valueOf(o1.getRating()));
 				if (c == 0) {
-					c = o2.getName().compareTo(o1.getName());
+					c = o1.getName().compareTo(o2.getName());
 				}
 				return c;
 			}
