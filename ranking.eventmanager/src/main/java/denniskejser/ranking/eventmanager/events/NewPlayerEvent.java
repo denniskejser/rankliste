@@ -5,9 +5,7 @@ public class NewPlayerEvent extends Event {
 	private int rating;
 	private String league;
 
-	public String getLeague() {
-		return league;
-	}
+
 	public NewPlayerEvent(String league, String name) {
 		super();
 		this.league=league;
@@ -26,7 +24,9 @@ public class NewPlayerEvent extends Event {
 	public String getName() {
 		return name.trim();
 	}
-
+	public String getLeague() {
+		return league;
+	}
 	public void setName(String name) {
 		this.name = name;
 	}

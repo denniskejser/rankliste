@@ -7,6 +7,20 @@ public class NewMatchEvent extends Event{
 	private String league;
 	private String unparsed;
 	
+	public NewMatchEvent(String league, String player1, String player2, String result) {
+		super();
+		this.player1 = player1;
+		this.player2 = player2;
+		this.result = result;
+		this.league = league;
+	}
+	
+	public NewMatchEvent(String league, String unparsed) {
+		super();
+		this.league = league;
+		this.unparsed=unparsed;
+	}
+	
 	public String getPlayer1() {
 		return player1;
 	}
@@ -33,20 +47,6 @@ public class NewMatchEvent extends Event{
 
 	public void setResult(String result) {
 		this.result = result;
-	}
-
-	public NewMatchEvent(String league, String player1, String player2, String result) {
-		super();
-		this.player1 = player1;
-		this.player2 = player2;
-		this.result = result;
-		this.league = league;
-	}
-	
-	public NewMatchEvent(String league, String unparsed) {
-		super();
-		this.league = league;
-		this.unparsed=unparsed;
 	}
 
 	public String getUnparsed() {
