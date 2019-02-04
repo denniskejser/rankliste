@@ -1,0 +1,63 @@
+﻿Liga: Bordtennis
+
+Turnering: Kejser Invitational
+
+Dato: 03-02-2019
+
+Spillere: Terp, Troels, Jonas, Abat, Jørgen, Jan, Martin, Anders, Dennis, Høyer
+
+Kampe, vinderen først adskilt af / eller -
+___________________________________________________________________________________________
+
+
+Troels - Jonas
+Terp - Jørgen
+Martin - Jan
+Anders - Høyer
+Abat - Troels
+Jan - Terp
+Jonas - Jørgen
+Dennis - Abat
+Høyer - Terp
+Anders - Martin
+Jan - Troels
+Dennis - Jonas
+Martin - Høyer
+Troels - Jørgen
+Terp - Abat
+Anders - Jonas
+Høyer - Troels
+Dennis - Jan
+Martin - Jørgen
+Høyer - Jonas
+Anders - Abat
+Martin - Dennis
+Terp - Troels
+Jan - Jørgen
+Martin - Jonas
+Dennis - Anders
+Martin - Terp
+Jan - Jonas
+Dennis - Troels
+Høyer - Abat
+Høyer - Jørgen
+Martin - Abat
+Terp - Anders
+Dennis - Jørgen
+Jan - Høyer
+Abat - Jonas
+Martin - Troels
+Dennis - Terp
+Anders - Jan
+Abat - Høyer
+troels - jørgen
+Terp - Jonas
+troels - anders
+Abat - Jørgen
+Dennis - Høyer
+Abat - Jan
+Anders - Jørgen
+martin - troels
+dennis - jan
+anders - martin
+

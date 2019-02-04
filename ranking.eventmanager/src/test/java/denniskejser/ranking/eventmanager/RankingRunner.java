@@ -10,7 +10,6 @@ import denniskejser.ranking.render.output.WebSiteProducer;
 
 public class RankingRunner {
 	
-
 	public static void main(String[] args) {
 	while (true) {
 			Path path = Paths.get("C:\\turneringer\\bordtennisturnering.txt");
